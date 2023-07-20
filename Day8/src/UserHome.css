@@ -1,0 +1,11 @@
+/* .bgimage
+{
+    background-image: url("../src//images//bg1.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    bottom: -3;
+    object-fit: cover;
+    padding-top: 120px;
+} */

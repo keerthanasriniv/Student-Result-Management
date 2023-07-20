@@ -1,0 +1,43 @@
+body{
+    /* background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,169,253,0.8297443977591037) 50%); */
+    /* background: rgb(225,184,202);
+    background: linear-gradient(90deg, rgba(225,184,202,1) 0%, rgba(195,198,205,0) 100%); */
+    /* background: rgb(225,184,202);
+background: linear-gradient(90deg, rgba(225,184,202,1) 0%, rgba(113,121,138,0) 100%); */
+background: rgb(193,139,163);
+background: linear-gradient(90deg, rgba(193,139,163,1) 0%, rgba(113,121,138,0) 100%);
+    /* background-image: url('./images/login.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.div-user
+{
+    width:200px;
+    height:200px;
+    padding-top: 100px;
+    padding-left: 300px;
+    float: left;
+    text-decoration: none;
+}
+.div-admin
+{
+    padding-top: 120px;
+    padding-right: 230px;
+    float: right;
+}
+.title
+{
+    float: center;
+    color:black;
+}
+.link-user-login,.link-user-login:visited,.link-user-login:link
+{
+    color:black;
+    text-decoration: none;
+}
+.link-admin-login,.link-admin-login:visited,.link-admin-login:link
+{
+    color: black;
+    text-decoration: none;
+}
