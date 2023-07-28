@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, table {
+    margin: 0;
+    padding: 0;
+  }
+  .stuimage
+  {
+    /* background-image: url('./images/studb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-image: url('./images/studb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:570px;
+    padding-top:30px
+  }
+  .h2stu
+  {
+    color:white;
+    margin-top:100px;
+    margin-left:400px;
+  }
+  /* Set up a basic layout */
+  .student-table {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the table */
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    margin-left:600px;
+    font-size: 16px;
+  }
+  
+  th, td {
+    padding: 10px 15px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style table header and body */
+  thead {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:hover {
+    background-color: grey;
+  }
+  
+  /* Style the title */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  

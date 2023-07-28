@@ -1,0 +1,68 @@
+/* AddProduct.css */
+
+/* Container styles */
+.containerAdd {
+    /* margin-top: 20px; */
+    background-image: url('/src/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    height:700px;
+  }
+  
+  /* Card styles */
+  .cardAdd {
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 20px; 
+    margin-bottom: 100px;;
+    }
+  
+  /* Form label styles */
+  .formAdd-label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: white;
+  }
+  .colAdd-md-6 offset-md-3
+  {
+    margin-bottom: 100px;
+  }
+  /* Input styles */
+  .formAdd-input {
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Submit button styles */
+  .submitAdd-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Additional styles for the glow effect on the submit button */
+  .submitAdd-button.glow-on-hover {
+    transition: all 0.3s ease;
+  }
+  .submitAdd-button.glow-on-hover:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Custom style for the Navbar2 component */
+  .custom-navbar {
+    /* Add your custom styles for the Navbar2 component here */
+  }
+  .cardAdd-header
+  {
+    color:white;
+  }
+  

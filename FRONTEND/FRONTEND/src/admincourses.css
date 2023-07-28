@@ -1,0 +1,226 @@
+.he1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  .admincoursebg
+  {
+    background-image: url('./login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    height:700px;
+  }
+  /* Styling for the heading */
+  .back {
+    /* background-color: #ff6b6b; */
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .admincourseh2
+  {
+    color:white;
+  }
+  /* .back h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #fff;
+  } */
+  
+  /* Styling for the registration form container */
+  .bod9 {
+    /* background-image: url('./login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    backdrop-filter: blur;
+    /* background-color: #f9fbe7; */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-left: 20px;
+  }
+  
+  /* Styling for the form labels */
+  .reservation-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:white;
+  }
+  
+  /* Styling for the form inputs */
+  .reservation-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for the Register button */
+  .reservation-form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Styling for the Register button on hover */
+  .reservation-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the form group container */
+  .clr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 70px;
+    padding:0px;
+  }
+  
+  /* Styling for the marquee */
+  marquee {
+    margin: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the paragraph below marquee */
+  .bod9 p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+  }
+  
+ .reg
+ {
+    margin-left: 60px;
+ }
+
+/* .container-ass
+{
+    background-image: url("../src/images/bookq.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 590px;
+    bottom: -5;
+    object-fit: cover;
+    padding-top: 120px;
+    
+
+}
+.wrapper-ass{
+    width: 500px;
+    height: 550px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    margin-left: 20%;
+    background-size: cover;
+    background-position: center;
+
+} 
+.wrapper-ass .form-box-ass{
+    width:100%;
+    display: flex;
+    
+}
+.wrapper-ass .form-box.register-ass {
+    position: none;
+    transform: translateX(400px);
+}
+
+.null-ass
+{
+    margin-top: -90px;
+    padding-bottom: 350px;
+    padding-left: 15px;
+    
+}
+.input-box-ass{
+    position: relative;
+    padding: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid gray;
+    margin: 30px 0;
+}
+.ass textarea
+{
+    color: black;
+    height: 100px;
+    width: 300px;
+}
+.input-box-ass label {
+    position: absolute;
+    top: 50%;
+    left:5px;
+    transform: translateY(-50%);
+    font-size:1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-box-ass input:focus~label,
+.input-box-ass input:valid~label{
+    top:-5px;
+}
+.input-box-ass input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    color: black ;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.btn-ass{
+    width:100%;
+    height: 45px;
+    background:#162938;
+    border:none;
+    outline:none;
+    border-radius: 6px;
+    cursor:pointer;
+    font-size:1em;
+    color:white;
+    font-weight: 500;
+    text-align: center;
+    display: inline;
+     padding: 10px 24px;
+    
+}
+.login-register-ass{
+    font-size: .9em;
+    color:#162938;
+    text-align:center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+.login-register-ass p a {
+    color: #162938;
+    text-decoration: none;
+    font-weight:600;
+
+} */

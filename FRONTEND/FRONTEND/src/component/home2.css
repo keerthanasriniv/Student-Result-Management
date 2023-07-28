@@ -1,0 +1,94 @@
+/* body{
+    background: rgb(193,139,163);
+background: linear-gradient(90deg, rgba(193,139,163,1) 0%, rgba(113,121,138,0) 100%);
+} */
+/* Styling the container */
+.home2bg
+{
+    background-image: url('/src/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    height:700px;
+}
+.containerss {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Styling the table */
+  .tabless {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  /* Styling table headers */
+  .tabless th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Styling table rows */
+  .tabless .tabss td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styling the "ADD STUDENT RESULT" heading */
+  .cardss h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling the card background */
+  .cardss {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Styling the update and delete buttons */
+  .btnss {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styling the update button */
+  .btnss.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Styling the delete button */
+  .btnss.btn-dark {
+    background-color: #343a40;
+    color: #fff;
+    margin-left: 8px;
+  }
+  
+  /* Styling the delete button on hover */
+  .btnss.btn-dark:hover {
+    background-color: #212529;
+  }
+  
+  /* Styling the update button link */
+  .btnss.btn-danger a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Styling the update button link on hover */
+  .btnss.btn-danger a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  

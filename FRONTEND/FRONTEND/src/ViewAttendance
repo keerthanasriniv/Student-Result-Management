@@ -1,0 +1,27 @@
+import React from 'react';
+
+const ViewAttendance = ({ attendanceList }) => {
+  return (
+    <div>
+      <h2>View Attendance</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Student Name</th>
+            <th>Is Present</th>
+          </tr>
+        </thead>
+        <tbody>
+          {attendanceList.map((attendance, index) => (
+            <tr key={index}>
+              <td>{attendance.studentName}</td>
+              <td>{attendance.isPresent ? 'Yes' : 'No'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+export default ViewAttendance;
